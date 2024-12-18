@@ -44,7 +44,7 @@ namespace Login___GitHub.Data
                 MessageBox.Show($"Error al conectar a la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        //Conexiones
         // Método para cerrar la conexión
         public static void CloseConnection()
         {
